@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 20px;
+}
+body {
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+header {
+	height: 5rem;
+	background: rgb(44,62,86);
+}
+.header-inner, .content, footer {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.header-inner img {
+	margin-top: 17px;
+}
+.main-item {
+	font-size: 40px;
+	display: none;
+}
+.menu {
+	display: inline-block;
+	float: right;
+	margin-top: 2rem;
+}
+header ul li a {
+	color: rgb(255,255,255);
+    font-size: 0.7rem;
+    margin-top: 6rem;
+    padding: 0.5rem 0.250rem 1.6rem 0.250rem;
+    font-weight: bold;
+}
+header ul li a:hover {
+	border-bottom: 4px solid rgb(255,232,189);
+}
+header ul li {
+	display: inline-block;
+}
+.content nav {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.content nav a {
+	font-size: 0.7rem;
+	color: rgb(123,129,139);
+}
+.content nav a:before {
+	content: ' > '
+}
+.content nav a:first-child:before {
+	content: ' '
+}
+.content nav a:first-child {
+	color: rgb(90,169,248);
+}
+.data {
+	font-size: 12px;
+	color: rgb(123,129,139);
+}
+.news-box {
+	width: 25%;
+	padding: 25px;
+	margin-bottom: 20px;
+	display: inline-block;
+	border: 3px #d7e0ed solid;
+	margin-left: 20px;
+	vertical-align: top;
+}
+.news-box:hover {
+	border: 3px #ffe9b8 solid;
+	cursor: pointer
+}
+.content > a {
+
+}
+.picture img {
+	max-width: 100%;
+	height: auto;
+}
+.news-box p {
+	font-size: 14px;
+	margin-top: 10px;
+	color: #14213a;
+}
+.news-box h4 {
+	color: #14213a;
+}
+footer {
+	padding-bottom: 40px;
+	padding-top: 20px;
+	margin-top: 30px;
+	border-top: 1px solid rgb(123,129,139);
+	border-bottom: 1px solid rgb(123,129,139);
+	clear: both;
+}
+.logo-footer {
+	display: inline-block;
+    width: 29%;
+    margin-top: 100px;
+}
+.logo-footer img {
+	max-width: 100%;
+	height: auto;
+}
+.data-box {
+	width: 70%;
+	margin-top: 1rem;
+    color: rgb(44,62,86);
+    display: inline-block;
+    vertical-align: top;
+}
+.data-box div {
+	display: inline-block;
+	width: 30%;
+	float: right;
+}
+.data-box li {
+	margin-top: 1rem;
+}
+.data-box h2 {
+	font-size: 1rem;
+	color: rgb(44,62,86);
+}
+.data-box span {
+	font-size: 0.5rem;
+}
+.adress ul li a {
+	background: url('img/pointer.png') no-repeat 90% 100%;
+	padding: 10px 15px 0 15px;
+}
+.footer-info span {
+	font-size: 13px;
+	color: #939fb1;
+	float: left;
+}
+.footer-info {
+	margin: 20px 100px 20px 100px;
+	height: 20px;
+}
+.footer-info .tatar {
+	float: right;
+}
